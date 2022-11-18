@@ -136,7 +136,7 @@ public class BoardDAO {
 			stmt.setInt(1, sid);
 			rs = stmt.executeQuery();
 			if(rs.next()) {
-				filename = rs.getString("filename");
+				filename = rs.getString("file");
 			}
 			rs.close();
 
